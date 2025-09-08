@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sirwan\\Documents\\projects\\RealEstateERP\\RealEstateERP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{807877A2-766D-471D-A5A6-38D3D8EB5BD9}|src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj|c:\\users\\sirwan\\documents\\projects\\realestateerp\\realestateerp\\src\\services\\realestate\\realestate.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{807877A2-766D-471D-A5A6-38D3D8EB5BD9}|src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj|solutionrelative:src\\services\\realestate\\realestate.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807877A2-766D-471D-A5A6-38D3D8EB5BD9}|src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj|c:\\users\\sirwan\\documents\\projects\\realestateerp\\realestateerp\\src\\services\\realestate\\realestate.webapi\\realestate.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{807877A2-766D-471D-A5A6-38D3D8EB5BD9}|src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj|solutionrelative:src\\services\\realestate\\realestate.webapi\\realestate.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RealEstate.WebAPI",
+              "DocumentMoniker": "C:\\Users\\Sirwan\\Documents\\projects\\RealEstateERP\\RealEstateERP\\src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\Sirwan\\Documents\\projects\\RealEstateERP\\RealEstateERP\\src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj",
+              "RelativeToolTip": "src\\Services\\RealEstate\\RealEstate.WebAPI\\RealEstate.WebAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-08T08:59:03.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sirwan\\Documents\\projects\\RealEstateERP\\RealEstateERP\\src\\Services\\RealEstate\\RealEstate.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\RealEstate\\RealEstate.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sirwan\\Documents\\projects\\RealEstateERP\\RealEstateERP\\src\\Services\\RealEstate\\RealEstate.WebAPI\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\RealEstate\\RealEstate.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-08T08:51:23.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
