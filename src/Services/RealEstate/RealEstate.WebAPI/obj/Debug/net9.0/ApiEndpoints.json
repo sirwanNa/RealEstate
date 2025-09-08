@@ -1,0 +1,406 @@
+[
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.enduser.ArticleController",
+    "Method": "GetArticleAsync",
+    "RelativePath": "api/enduser/Article/GetArticle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "urlTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.enduser.ArticleController",
+    "Method": "GetArticlsListAsync",
+    "RelativePath": "api/enduser/Article/GetArticlsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "totalOfItems",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.enduser.ContactController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/enduser/Contact/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.RealEstate.ContactDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.enduser.PropertyInventoryController",
+    "Method": "FetchPropertyInventoriesListAsync",
+    "RelativePath": "api/enduser/PropertyInventory/FetchPropertyInventoriesList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryModel",
+        "Type": "RealEstate.Application.DTOs.RealEstate.Queries.PropertyInventoryQueryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.enduser.PropertyInventoryController",
+    "Method": "GetPropertyInventoryAsync",
+    "RelativePath": "api/enduser/PropertyInventory/GetPropertyInventory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "urlTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalOfRandomItems",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Blog.ArticleController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/v1/Article/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.Blog.ArticleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Blog.ArticleController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/Article/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Blog.ArticleController",
+    "Method": "FetchArticlesListAsync",
+    "RelativePath": "api/v1/Article/FetchArticlesList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryModel",
+        "Type": "RealEstate.Application.DTOs.Blog.Queries.ArticleQueryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Blog.ArticleController",
+    "Method": "GetArticleAsync",
+    "RelativePath": "api/v1/Article/GetArticle/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Blog.ArticleController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Article/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.Blog.ArticleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Setting.ConstantController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/v1/Constant/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.Setting.ConstanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Setting.ConstantController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/Constant/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Setting.ConstantController",
+    "Method": "FetchContractsListAsync",
+    "RelativePath": "api/v1/Constant/FetchConstantsList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryModel",
+        "Type": "RealEstate.Application.DTOs.Setting.Queries.ConstantQueryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Setting.ConstantController",
+    "Method": "GetConstant",
+    "RelativePath": "api/v1/Constant/GetConstant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.Setting.ConstantController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Constant/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.Setting.ConstanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.ContactController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/Contact/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.ContactController",
+    "Method": "FetchGetContactsListAsync",
+    "RelativePath": "api/v1/Contact/FetchContactsList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryModel",
+        "Type": "RealEstate.Application.DTOs.RealEstate.Queries.ContactQueryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.ContactController",
+    "Method": "GetContactAsync",
+    "RelativePath": "api/v1/Contact/GetContact/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/v1/PropertyInventory/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.RealEstate.PropertyInventoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "CreateFromFilesAsync",
+    "RelativePath": "api/v1/PropertyInventory/CreateFromFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.RealEstate.PropertyInventoryFromFilesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/PropertyInventory/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "FetchPropertyInventoriesListAsync",
+    "RelativePath": "api/v1/PropertyInventory/FetchPropertyInventoriesList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queryModel",
+        "Type": "RealEstate.Application.DTOs.RealEstate.Queries.PropertyInventoryQueryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "GetPropertyInventoryAsync",
+    "RelativePath": "api/v1/PropertyInventory/GetPropertyInventory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.WebAPI.Controllers.v1.RealEstate.PropertyInventoryController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/PropertyInventory/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealEstate.Application.DTOs.RealEstate.PropertyInventoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

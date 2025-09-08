@@ -1,0 +1,35 @@
+@Alfkanz.WebAPI_HostAddress = http://localhost:5185
+
+
+POST http://localhost:5185/api/v1/Constant/FetchConstantsList
+Content-Type: application/json
+
+{
+  "pageNumber": 1,
+  "pageSize": 10,
+  "type": 0,
+  "language": 1,
+  "title": "",
+  "description": ""
+}
+
+###
+
+### Get Constant by Id
+GET http://localhost:5185/api/v1/Constant/GetConstant/3d47fcc9-19c6-4d73-7360-08dd7fcc6934
+Accept: application/json
+
+### Create Constant
+
+POST http://localhost:5185/api/v1/Constant/Create
+Content-Type: application/json
+
+{
+  "type": 1,
+  "title": "dsads", 
+  "description": "asdsad", 
+  "title_Fa": "asdsa",
+  "description_Fa": "asdsa",
+  "title_Ar": "asdsa", 
+  "description_Ar": "asdsad"
+}
